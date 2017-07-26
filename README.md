@@ -20,7 +20,7 @@ DeepLab
 
 如下图所示，假设我们的验证码一共有4个字符,每个字符取26个大写字母中的一个；将卷积神经网络的输出层激活函数修改为sigmoid，输出层的[0-25]输出值对应第一个字符的onehot编码，[26-51]输出值对应第二个字符的onehot编码，[52-77]输出值对应第三个字符，[78-103]输出值对于第四个字符，并使用binary_crossentropy作为损失函数。
 
-![github](https://github.com/junliangliu/junliangliu.github.com/blob/master/VerifyCode/Doc/frame.png "思路")
+![github](https://github.com/junliangliu/captcha/blob/master/Doc/frame.png "思路")
 
 ### 实验环境
 keras theano cv2
@@ -28,7 +28,7 @@ keras theano cv2
 训练集4000张图片，测试集2000张，每张图片大小20*80
 
 ### 网络结构
-![github](https://github.com/junliangliu/junliangliu.github.com/blob/master/VerifyCode/Doc/model.png "思路")
+![github](https://github.com/junliangliu/captcha/blob/master/Doc/model.png "思路")
 
 ### 代码结构
 generate.py 在GenPics目录下随机生成6000张验证码图片及其对应验证码字符串。
