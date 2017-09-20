@@ -28,7 +28,7 @@ keras theano cv2
 训练集4000张图片，测试集2000张，每张图片大小20*80
 
 ### 网络结构
-![github](https://github.com/junliangliu/captcha/blob/master/Doc/model.png "思路")
+![github](https://github.com/junliangliu/captcha/blob/master/Doc/mode2.png "思路")
 
 ### 代码结构
 generate.py 在GenPics目录下随机生成6000张验证码图片及其对应验证码字符串。
