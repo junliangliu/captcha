@@ -102,7 +102,7 @@ for i in range(0,6000):
 # In[19]:
 
 import csv
-csvfile = open('GenPics/lables.csv', 'wb')
+csvfile = open('GenPics/lables.csv', 'w+', newline="")
 writer = csv.writer(csvfile)
 writer.writerows(lables)
 csvfile.close()
